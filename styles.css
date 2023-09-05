@@ -3,9 +3,13 @@
 	width:100px;
 	height:100px;
 	background:red;
-	animation: stretch 1s ease-out infinite alternate;
+	animation: pulse 1s ease-in-out infinite alternate;
 }
- @keyframes stretch{
+ @keyframes pulse{
+	 0%{
+		 transform: scale(0.5);
+         background-color: red;
+	 }
 	  100% {
                 transform: scale(0.6);
                 background-color: red;
